@@ -1,0 +1,47 @@
+/*Style sheet for Dale Franks' homepage*/
+
+body {
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/51SVyGida9L._SY879_.jpg");
+	background-repeat: repeat-y;
+	background-size: 250px 500px;
+	background-position: 100% 50%;
+	width: 100%;
+	right: 0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+	
+#coolQuote {
+	text-align: left;
+	color: red;
+    margin-bottom: 5px;
+	font-size: 18pt;
+	width: 50%;
+}
+	
+#halfPageText {
+	width: 50%;
+	border: 1px solid black;
+}
+  
+#links {
+	width: 50%;
+}
+	
+#zebraDarker:nth-child(odd) {
+	width: 50%;
+	background: #99ccff;
+}
+  
+table {
+    margin: 5px;
+    width: 290px;
+}
+  
+#trHeader {
+    text-decoration: underline;
+    color: #990000;
+}
+  
+.centerCell {
+    text-align: center;
+}
