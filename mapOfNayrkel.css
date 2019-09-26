@@ -1,0 +1,196 @@
+/*
+Map of Nayrkel
+by Dale Franks
+Project #1 for Web Programming
+9/26/2019
+*/
+
+body {
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/40eb67f9-5888-4a51-9a78-61b1b11b367a/ddgzsj3-77185b78-082c-45fe-8454-f2867da1a2bc.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQwZWI2N2Y5LTU4ODgtNGE1MS05YTc4LTYxYjFiMTFiMzY3YVwvZGRnenNqMy03NzE4NWI3OC0wODJjLTQ1ZmUtODQ1NC1mMjg2N2RhMWEyYmMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.C5MWCvA-pStQWG-0h5SO8BD4VpIA-sONXI9OUB3WokU");
+	background-repeat: no-repeat;
+	background-size: 1200px 750px;
+	overflow: scroll;
+	width: 100%;
+	right: 0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#Kshwa {
+	position: absolute;
+	left: 300px;
+	top: 100px;
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+#Kshwa:hover {
+	font-size: 200%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/40eb67f9-5888-4a51-9a78-61b1b11b367a/ddh02cw-82c81db8-5a9b-4864-9b12-5d7f1460b524.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQwZWI2N2Y5LTU4ODgtNGE1MS05YTc4LTYxYjFiMTFiMzY3YVwvZGRoMDJjdy04MmM4MWRiOC01YTliLTQ4NjQtOWIxMi01ZDdmMTQ2MGI1MjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.t9g47vQAgp6jHbgyAuZTx4DSmc2EwvkTpXBTM-48Idg");
+}
+
+#Taiess {
+	position: absolute;
+	left: 700px;
+	top: 100px;
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+#Taiess:hover {
+	font-size: 200%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/40eb67f9-5888-4a51-9a78-61b1b11b367a/ddh03l5-d18e6067-8321-4346-9b03-eeb580aff58d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQwZWI2N2Y5LTU4ODgtNGE1MS05YTc4LTYxYjFiMTFiMzY3YVwvZGRoMDNsNS1kMThlNjA2Ny04MzIxLTQzNDYtOWIwMy1lZWI1ODBhZmY1OGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VjpQJ-ZtTIWQPjt89E78AJJB2Vy6gPZs74FrNnPx1kg");
+}
+
+#Cyril {
+	position: absolute;
+	left: 320px;
+	top: 300px;
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+#Cyril:hover {
+	font-size: 200%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/40eb67f9-5888-4a51-9a78-61b1b11b367a/ddh07st-b276b592-eae2-41cd-86b7-5165e3128e3e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQwZWI2N2Y5LTU4ODgtNGE1MS05YTc4LTYxYjFiMTFiMzY3YVwvZGRoMDdzdC1iMjc2YjU5Mi1lYWUyLTQxY2QtODZiNy01MTY1ZTMxMjhlM2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8QHGn5ngdXXrR7e-fvRl8pzvudei_CDSH4GK_n9xSug");
+}
+
+#IssNalar {
+	position: absolute;
+	left: 700px;
+	top: 300px;
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+#IssNalar:hover {
+	font-size: 200%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/40eb67f9-5888-4a51-9a78-61b1b11b367a/ddh08ux-21b4cd4d-91df-452b-91c2-c444d27938f4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQwZWI2N2Y5LTU4ODgtNGE1MS05YTc4LTYxYjFiMTFiMzY3YVwvZGRoMDh1eC0yMWI0Y2Q0ZC05MWRmLTQ1MmItOTFjMi1jNDQ0ZDI3OTM4ZjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qUkSsBagIAp3qLAjriAIJaDLyan-aohUMZekyKzZ_Tk");
+}
+
+#Nydra {
+	position: absolute;
+	left: 1000px;
+	top: 300px;
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+#Nydra:hover {
+	font-size: 200%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background-image: url("");
+}
+
+#Cerecstrianrt {
+	position: absolute;
+	left: 300px;
+	top: 500px;
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+#Cerecstrianrt:hover {
+	font-size: 200%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background-image: url("");
+}
+
+#Dunywe {
+	position: absolute;
+	left: 650px;
+	top: 550px;
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+#Dunywe:hover {
+	font-size: 200%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background-image: url("");
+}
+
+#Kynark {
+	position: absolute;
+	left: 920px;
+	top: 500px;
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+#Kynark:hover {
+	font-size: 200%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background-image: url("");;
+}
+
+#CrystalSea {
+	position: absolute;
+	left: 60px;
+	top: 430px;
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+#CrystalSea:hover {
+	font-size: 200%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/40eb67f9-5888-4a51-9a78-61b1b11b367a/ddh02vs-9c97219a-c086-4e07-a865-36a9153982b0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQwZWI2N2Y5LTU4ODgtNGE1MS05YTc4LTYxYjFiMTFiMzY3YVwvZGRoMDJ2cy05Yzk3MjE5YS1jMDg2LTRlMDctYTg2NS0zNmE5MTUzOTgyYjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SAhpIlC5FocoRSD8eRHpaXTzfy5fd13W4fotF5njluE");
+}
+
+div.bigBorder {
+	width: 1190px;
+	height: 730px;
+}
+
+.background {
+	overflow: scroll;
+}
