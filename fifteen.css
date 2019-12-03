@@ -1,0 +1,167 @@
+/*
+Dale Franks
+11/30/2019
+Project 3
+Extra Features:
+1) Updated message when game is won
+2) Music, timer, and move counter
+3) Multiple puzzle picture options
+4) Solve button
+*/
+
+.hoverpiece {
+	border-color: black;
+}
+
+.hoverpiece:hover {
+	size: 150%;
+	border-color: green;
+}
+
+.counter {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: red;
+	font-size: 150%;
+	border-left: 6px solid red;
+	background-color: lightgrey;
+}
+
+.validationLinks {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#shufflebutton, #solveThePuzzle{
+	color: red;
+	width: 400px;
+	background-color: lightgrey;
+	text-align: center;
+}
+
+#header1 {
+	color: black;
+}
+
+#secs {
+	color: red;
+}
+
+#moves {
+	text-align: center;
+	size: 150%;
+}
+
+#moveCounter{
+	border: 3;
+	size: 150%;
+}
+
+.puzzle {
+   background-image:url(./Witcher.jpg);
+   width:100px;
+   height:100px;
+}
+
+.ACPuzzle {
+   background-image:url(./AssassinsCreed.jpg);
+   width:100px;
+   height:100px;
+}
+
+.skyrimPuzzle {
+   background-image:url(./Skyrim.jpg);
+   width:100px;
+   height:100px;
+}
+
+.marioPuzzle {
+   background-image:url(./MarioPic.jpg);
+   width:100px;
+   height:100px;
+}
+
+#puzzle1, #puzzle2, #puzzle3, #puzzle4 {
+	border: 0px;
+}
+
+.puzzleBlank {
+	width:100px;
+	height:100px;
+}
+
+.puzzleNumbers {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+.piece1 {
+   background-position:0 0
+}
+
+.piece2 {
+   background-position:-100px 0px
+}
+
+.piece3 {
+   background-position:-200px 0px
+}
+
+.piece4 {
+   background-position:-300px 0px
+}
+
+.piece5 {
+   background-position:0px -100px
+}
+
+.piece6 {
+   background-position:-100px -100px
+}
+
+.piece7 {
+   background-position:-200px -100px
+}
+
+.piece8 {
+   background-position:-300px -100px
+}
+
+.piece9 {
+   background-position:0 -200px
+}
+
+.piece10 {
+   background-position:-100px -200px
+}
+
+.piece11 {
+   background-position:-200px -200px
+}
+
+.piece12 {
+   background-position:-300px -200px
+}
+
+.piece13 {
+   background-position:0px -300px
+}
+
+.piece14 {
+   background-position:-100px -300px
+}
+
+.piece15 {
+   background-position:-200px -300px
+}
+
+.piece16 {
+   background-position:-300px -300px
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12, #p13, #p14, #p15, #p16 {
+	border: 0px;
+}

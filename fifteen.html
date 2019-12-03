@@ -1,0 +1,94 @@
+<!--
+Dale Franks
+11/30/2019
+Project 3
+Extra Features:
+1) Updated message when game is won
+2) Music, timer, and move counter
+3) Multiple puzzle picture options
+4) Solve button
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Project 3</title>
+	<link rel="stylesheet" href="fifteen.css">
+</head>
+
+<body>
+<h1 id="header1">Fifteen Puzzle</h1>
+	
+	<!--Puzzle selector-->
+	<p>Puzzle Selector</p>
+	<table>
+	<tr>
+		<td id="puzzle1"><div class="puzzle"><img height="100" width="100" src="./Witcher.jpg" alt="witcher"/></div></td>
+		<td id="puzzle2"><div class="ACPuzzle"><img height="100" width="100" src="./AssassinsCreed.jpg" alt="AC"/></div></td>
+		<td id="puzzle3"><div class="skyrimPuzzle"><img height="100" width="100" src="./Skyrim.jpg" alt="skyrim"/></div></td>
+		<td id="puzzle4"><div class="marioPuzzle"><img height="100" width="100" src="./MarioPic.jpg" alt="mario"/></div></td>
+	</tr>
+	</table>
+	
+	<!--Move counter in top right corner-->
+	<div class="counter">
+	<p id="moveCounter">Move Counter</p>
+	<p id="moves">0</p>
+	</div>
+	
+	<p></p>
+	
+	<!--Divvying pieces and assigning ids to be referenced by the .js page-->
+	<section class="puzzleNumbers">
+	<table>
+	<tr>
+		<td id="p1"><div class="puzzle piece1 hoverpiece">1</div></td>
+		<td id="p2"><div class="puzzle piece2 hoverpiece">2</div></td>
+		<td id="p3"><div class="puzzle piece3 hoverpiece">3</div></td>
+		<td id="p4"><div class="puzzle piece4 hoverpiece">4</div></td>
+	</tr>
+	<tr>
+		<td id="p5"><div class="puzzle piece5 hoverpiece">5</div></td>
+		<td id="p6"><div class="puzzle piece6 hoverpiece">6</div></td>
+		<td id="p7"><div class="puzzle piece7 hoverpiece">7</div></td>
+		<td id="p8"><div class="puzzle piece8 hoverpiece">8</div></td>
+	</tr>
+	<tr>
+		<td id="p9"><div class="puzzle piece9 hoverpiece">9</div></td>
+		<td id="p10"><div class="puzzle piece10 hoverpiece">10</div></td>
+		<td id="p11"><div class="puzzle piece11 hoverpiece">11</div></td>
+		<td id="p12"><div class="puzzle piece12 hoverpiece">12</div></td>
+	</tr>
+	<tr>
+		<td id="p13"><div class="puzzle piece13 hoverpiece">13</div></td>
+		<td id="p14"><div class="puzzle piece14 hoverpiece">14</div></td>
+		<td id="p15"><div class="puzzle piece15 hoverpiece">15</div></td>
+		<td id="p16"><div class="puzzleBlank hoverpiece">16</div></td>
+	</tr>
+	</table>
+	</section>
+	
+	<!--Shuffle and solve buttons-->
+	<p id="shufflebutton">SHUFFLE</p>
+	<p id="solveThePuzzle">SOLVE THE PUZZLE</p>
+
+	<!--Timer buttons-->
+	<p></p>
+	<button onclick="start()">Start Timer</button>
+	<button onclick="end()">End Timer</button>
+	<p id="secs">Click Start Timer before you begin the game and End Timer after you complete the game to see how long you took!</p>
+	
+	<!--Validator in bottom right corner-->
+	<p>
+	<a href="https://validator.w3.org/check?uri=referer">
+	<img class="validationLinks" src="http://www.w3.org/Icons/valid-xhtml10"
+          alt="Valid XHTML 1.0!" height="31" width="88" />
+	</a>
+    </p>
+
+	<script src="fifteen.js"></script>
+</body>
+
+</html>
